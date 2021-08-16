@@ -1,4 +1,4 @@
-# TOO-Trabalho-01-
+# TOO-Trabalho-01
 Trabalho Prático 01 da Disciplina de Tecnologia Orientada a Objetos
 
 
