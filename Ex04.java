@@ -29,7 +29,7 @@ public class Ex04 {
                     preco = Float.parseFloat(entrada.nextLine());
 
                     if (preco <= 0) {
-                        throw new Exception("O valor informado precisa ser maior do que 0");
+                        throw new Exception("O valor informado precisa ser maior do que 0.");
                         
                     }
                     
@@ -92,7 +92,7 @@ public class Ex04 {
             
             dataParcelas[i] = dataAtual;
 
-            System.out.println("Valor da Parcela: " + String.format("%.2f", parcelaVetor[i]) + " - Data do " + (i + 1) + "º vencimento: " + sdf.format(dataParcelas[i].getTime()));
+            System.out.println("Valor da Parcela: " + String.format("%.2f", parcelaVetor[i]) + " - Data do " + (i + 1) + "º Vencimento: " + sdf.format(dataParcelas[i].getTime()));
             
         }
 
